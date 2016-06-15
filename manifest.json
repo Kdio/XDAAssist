@@ -1,0 +1,18 @@
+{
+  "name": "XDA Assist Context Menu System",
+  "description": "XDA Assist Context Menu System",
+  "version": "0.1",
+  "permissions": [
+      "contextMenus", 
+      "tabs"],
+  "background": {
+    "persistent": false,
+    "scripts": ["xdaassist.js"]
+  },
+  "icons": {
+    "16": "xda_16.png",
+    "48": "xda_48.png",
+    "128": "xda_128.png"
+        },
+  "manifest_version": 2
+}
